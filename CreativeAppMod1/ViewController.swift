@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         InfoLabel.layer.borderWidth = 1
         ButtonOutlet.layer.borderColor = black.cgColor
         ButtonOutlet.layer.borderWidth = 1
-        ButtonOutlet.layer.cornerRadius = 60
+        ButtonOutlet.layer.cornerRadius = 40
         LoadingOutlet.hidesWhenStopped = true
         self.LoadingOutlet.stopAnimating()
         // Do any additional setup after loading the view.
