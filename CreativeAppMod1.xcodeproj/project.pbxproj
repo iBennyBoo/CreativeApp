@@ -12,20 +12,22 @@
 		9B454FF426E01645001AF6F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B454FF326E01645001AF6F6 /* ViewController.swift */; };
 		9B454FF726E01645001AF6F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B454FF526E01645001AF6F6 /* Main.storyboard */; };
 		9B454FFA26E01645001AF6F6 /* CreativeAppMod1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B454FF826E01645001AF6F6 /* CreativeAppMod1.xcdatamodeld */; };
-		9B454FFC26E01647001AF6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B454FFB26E01647001AF6F6 /* Assets.xcassets */; };
 		9B454FFF26E01647001AF6F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B454FFD26E01647001AF6F6 /* LaunchScreen.storyboard */; };
+		9B4B437226E2507B00D160CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B454FFB26E01647001AF6F6 /* Assets.xcassets */; };
+		9B4B437426E252EF00D160CD /* ChuckNorris120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B4B437326E252EE00D160CD /* ChuckNorris120x120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B454FEC26E01645001AF6F6 /* CreativeAppMod1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeAppMod1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B454FEC26E01645001AF6F6 /* ◣ Theorem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "◣ Theorem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B454FEF26E01645001AF6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B454FF126E01645001AF6F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9B454FF326E01645001AF6F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B454FF626E01645001AF6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B454FF926E01645001AF6F6 /* CreativeAppMod1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreativeAppMod1.xcdatamodel; sourceTree = "<group>"; };
-		9B454FFB26E01647001AF6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B454FFB26E01647001AF6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = /Users/benjamin.berman22/Documents/Mod1/CreativeApp/CreativeAppMod1/Assets.xcassets; sourceTree = "<absolute>"; };
 		9B454FFE26E01647001AF6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B45500026E01647001AF6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4B437326E252EE00D160CD /* ChuckNorris120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ChuckNorris120x120.png; path = ../../../ChuckNorris120x120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 		9B454FED26E01645001AF6F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B454FEC26E01645001AF6F6 /* CreativeAppMod1.app */,
+				9B454FEC26E01645001AF6F6 /* ◣ Theorem.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +67,7 @@
 				9B454FFB26E01647001AF6F6 /* Assets.xcassets */,
 				9B454FFD26E01647001AF6F6 /* LaunchScreen.storyboard */,
 				9B45500026E01647001AF6F6 /* Info.plist */,
+				9B4B437326E252EE00D160CD /* ChuckNorris120x120.png */,
 				9B454FF826E01645001AF6F6 /* CreativeAppMod1.xcdatamodeld */,
 			);
 			path = CreativeAppMod1;
@@ -73,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B454FEB26E01645001AF6F6 /* CreativeAppMod1 */ = {
+		9B454FEB26E01645001AF6F6 /* ◣ Theorem */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B45500326E01647001AF6F6 /* Build configuration list for PBXNativeTarget "CreativeAppMod1" */;
+			buildConfigurationList = 9B45500326E01647001AF6F6 /* Build configuration list for PBXNativeTarget "◣ Theorem" */;
 			buildPhases = (
 				9B454FE826E01645001AF6F6 /* Sources */,
 				9B454FE926E01645001AF6F6 /* Frameworks */,
@@ -85,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = CreativeAppMod1;
+			name = "◣ Theorem";
 			productName = CreativeAppMod1;
-			productReference = 9B454FEC26E01645001AF6F6 /* CreativeAppMod1.app */;
+			productReference = 9B454FEC26E01645001AF6F6 /* ◣ Theorem.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B454FEB26E01645001AF6F6 /* CreativeAppMod1 */,
+				9B454FEB26E01645001AF6F6 /* ◣ Theorem */,
 			);
 		};
 /* End PBXProject section */
@@ -128,7 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B454FFF26E01647001AF6F6 /* LaunchScreen.storyboard in Resources */,
-				9B454FFC26E01647001AF6F6 /* Assets.xcassets in Resources */,
+				9B4B437226E2507B00D160CD /* Assets.xcassets in Resources */,
+				9B4B437426E252EF00D160CD /* ChuckNorris120x120.png in Resources */,
 				9B454FF726E01645001AF6F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B45500326E01647001AF6F6 /* Build configuration list for PBXNativeTarget "CreativeAppMod1" */ = {
+		9B45500326E01647001AF6F6 /* Build configuration list for PBXNativeTarget "◣ Theorem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B45500426E01647001AF6F6 /* Debug */,
